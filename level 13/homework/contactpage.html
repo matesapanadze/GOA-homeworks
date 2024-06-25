@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>contact page </title>
+        <img src="contactlogo.png">
+    </head>
+    <body>
+        <h1>Contact Page</h1>
+        <nav>
+            <a href="mainpage.html">Main Page</a>
+        </nav>
+        <form>
+            <label for="em">Email</label><br>
+            <input type="email" id="em" name="em" placeholder="enter your email*" required><br><br>
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="enter your name*" required><br><br>
+
+            <label for="sur">Surname</label><br>
+            <input type="text" id="sur" name="surname" placeholder="enter your surname*" required><br><br>
+
+            <input type="submit">
+        </form>
+        <!--Label ელემენტი არის საჭირო იმისთვის რათა მომხმარებელს მიუთითოს თუ რა უნდა შეიტანოს სარეგისტრაციო ველზე-->
+        <!--for ატრიბუტი გამოიყენება label თეგში იმისთვის რომ მასში მოთავსებული value დავაკავშიროთ input-ის id ატრიბუტს-->
+        <!--id ატრიბუტი გამოიყენება იმისთვის რომ შესატან ველს მივცეთ უნიკალური მნიშვნელობა, რომელიც ერთადერთია და მისი მრავალჯერ გამოყენება დაუშვებელია html დოკუმენტში-->
+        <!--placeholder ატრიბუტის საშუალებით შესატან ველში value იჭერს მთელ ადგილს, სანამ ერთ სიმბოლოსაც არ ავკრიფავთ-->
+        <!--type ატრიბუტი input-ში გამოიყენება იმისთვის, რომ მივუთითოთ რეგისტრაციის სხვადასხვა ტიპები მაგალითად:
+        "text", "checkbox", "email", "radio" და ა.შ.-->
+        <!--required ელემენტი მიუთითებს იმაზე, რომ ესა თუ ის სარეგისტრაციო ველი აუცილებლად უნდა იქნას შევსებული-->
+    </body>
+</html>
