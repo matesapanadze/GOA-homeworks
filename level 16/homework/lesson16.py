@@ -1,43 +1,43 @@
-# nums = [21,43,87,65]
-# min_num = nums[0]
-# for num in nums:
-#     if min_num >= num:
-#         min_num = num
-# print(min_num)
+nums = [21,43,87,65]
+min_num = nums[0]
+for num in nums:
+    if min_num >= num:
+        min_num = num
+print(min_num)
 
-# nums = [12,23,14,15]
-# max_num = nums[0]
-# for num in nums:
-#     if max_num <= num:
-#         max_num = num
-# print(max_num)
+nums = [12,23,14,15]
+max_num = nums[0]
+for num in nums:
+    if max_num <= num:
+        max_num = num
+print(max_num)
 
-# phone_brands = ["iphone", "samsung", "blackberry", "nokia", "huawei", "xiaomi"]
-# print(phone_brands[1])
-# print(phone_brands[-3])
-# print(phone_brands[5])
+phone_brands = ["iphone", "samsung", "blackberry", "nokia", "huawei", "xiaomi"]
+print(phone_brands[1])
+print(phone_brands[-3])
+print(phone_brands[5])
 
-# int_lists = [11,22,45,66,54]
-# str_lists = ["porsche", "jeep", "bmw", "mercedes", "lamborghini"]
-# new_list = []
-# new_list.append(str_lists[0])
-# new_list.append(int_lists[0])
-# new_list.append(str_lists[1])
-# new_list.append(int_lists[1])
-# new_list.append(str_lists[2])
-# new_list.append(int_lists[2])
-# new_list.append(str_lists[3])
-# new_list.append(int_lists[3])
-# new_list.append(str_lists[4])
-# new_list.append(int_lists[4])
-# print(new_list)
+int_lists = [11,22,45,66,54]
+str_lists = ["porsche", "jeep", "bmw", "mercedes", "lamborghini"]
+new_list = []
+new_list.append(str_lists[0])
+new_list.append(int_lists[0])
+new_list.append(str_lists[1])
+new_list.append(int_lists[1])
+new_list.append(str_lists[2])
+new_list.append(int_lists[2])
+new_list.append(str_lists[3])
+new_list.append(int_lists[3])
+new_list.append(str_lists[4])
+new_list.append(int_lists[4])
+print(new_list)
 
 
 lists = ["clothes","shoes","trainers", 5,10,15,20,25]
 str_lists = lists[:3]
 int_lists = lists[3:]
-# print(str_lists)
-# print(int_lists)
+print(str_lists)
+print(int_lists)
 
 nums1 = [11,12,13,14,15,16,17,18,19]
 nums2 = [21,22,23,24,25,26,27,28,29]
