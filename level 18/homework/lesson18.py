@@ -25,5 +25,5 @@ print(sum / len(lessons_table.items()))
 newdict = {}
 for i in range(1,7):
     newdict[f"item_{i}"] = input(f"enter item {i}: ")
-txt = "I wanna buy them:", newdict
-print(txt)
+print(newdict)
+
