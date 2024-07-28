@@ -1,21 +1,21 @@
 
 
-# def greet():
-#     print("Hello Mate!")
+def greet():
+    print("Hello Mate!")
 
-# greet()
-# greet()
-# greet()
-# greet()
+greet()
+greet()
+greet()
+greet()
 
 
-# def greet(name):
-#     print("Welcome " + name)
+def greet(name):
+    print("Welcome " + name)
 
-# greet("Mate")
+greet("Mate")
 
-# # პითონში ჩაშენებული ფუნქციების გარდა ასევე შეგვიძლია შვქმნათ და ჩავამატოთ ჩვენს მიერ შექმნილი ფუნქციები
-# # def - ის გამოყენებით ჩვენ შეგვიძ₾ია ვუთხრათ კომპიუტერს ამ ფუნქციის დეფინიციის, ანუ მნიშვნელობის შესახებ
+# პითონში ჩაშენებული ფუნქციების გარდა ასევე შეგვიძლია შვქმნათ და ჩავამატოთ ჩვენს მიერ შექმნილი ფუნქციები
+# def - ის გამოყენებით ჩვენ შეგვიძლია ვუთხრათ კომპიუტერს ამ ფუნქციის დეფინიციის, ანუ მნიშვნელობის შესახებ
 
 def even_odd(numbers_list):
     for number in numbers_list:
@@ -25,4 +25,4 @@ def even_odd(numbers_list):
             print(str(number) + " is odd")
 
 
-even_odd([1, 2, 3, 4, 5, 6, 7])
+even_odd([1, 2, 3, 4, 5, 6,])
