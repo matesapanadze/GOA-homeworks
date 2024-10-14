@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+
+  
+
+#heading {
+    margin-left: 200px;
+    display: inline;
+    color: white
+}
+
+
+h1 {
+    font-family: "Protest Guerrilla";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: black;
+    padding: 20px
+}
+
+
+ul,li {
+    display: inline;
+    margin-left: 25px
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 20px
+}
+
+a:hover {
+    text-decoration: underline solid rgb(22, 148, 232);
+    color: rgb(22, 148, 232)
+}
+
+
+main h1 {
+    text-align: center
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500
+}
+
+
+p {
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px
+}

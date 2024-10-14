@@ -1,0 +1,20 @@
+#flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#flex div {
+    width: 500px;
+    height: 408px;
+    object-fit: cover
+}
+
+#flex p {
+    font-weight: bolder;
+    font-size: 40px;
+    top: 0;
+}
+
+
+

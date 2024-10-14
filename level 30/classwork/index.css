@@ -1,0 +1,67 @@
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 100px
+}
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+#div1 {
+    background-image: url("southkorea.png");
+    background-size: cover
+}
+
+
+#flex div {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+#flex p {
+    margin-top: 20%
+}
+
+#flex h1 {
+    margin-top: 20%
+}
+
+
+
+#div2 {
+    background-image: url("tbilisi.png");
+    background-size: cover
+}
+
+
+#div3 {
+    background-image: url("newyork.png");
+    background-size: cover
+}
+
+
+
+#div4 {
+    background-image: url("paris.png");
+    background-size: cover
+}
+
+
+#div5 {
+    background-image: url("tokyo.png");
+    background-size: cover
+}
+
+#div6 {
+    background-image: url("dubai.png");
+    background-size: cover;
+}

@@ -1,0 +1,61 @@
+.p1 {
+    text-transform: capitalize;
+    text-decoration: underline dotted green;
+    margin-left: 30%;
+    margin-right: 50%
+}
+
+.p2 {
+    text-transform: capitalize;
+    text-decoration: line-through solid black;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.p3 {
+    text-decoration: overline double red;
+}
+
+.p4 {
+    text-transform: capitalize;
+    text-decoration: underline solid black;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.p5 {
+    text-transform: capitalize;
+    text-decoration: line-through dotted green;
+    margin-left: 25%;
+    margin-right: 50%
+}
+
+.p6 {
+    text-transform: capitalize;
+    text-decoration: line-through solid black;
+}
+
+.p7 {
+    text-decoration: overline solid green
+}
+
+.p8 {
+    text-decoration: overline solid green;
+    color: green;
+    margin-left: 35%;
+    margin-right: 50%
+}
+
+.p9 {
+    text-transform: uppercase;
+    text-decoration: overline solid rgb(134, 134, 134);
+    color:rgb(134, 134, 134);
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.p10 {
+    text-decoration: underline dotted green;
+    margin-left: 35%;
+    margin-right: 50%
+}

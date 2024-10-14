@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#div h1 {
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+
+body {
+    background-color:rgb(229, 229, 229);
+    font-family: Raleway;
+    padding: 100px;
+}
+
+#div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 765px;    
+}
+
+.img {
+    border-radius: 50%;
+    width: 120px;
+    
+}
+
+.img1 {
+    width: 40px
+}
+
+
+
+.innerdiv {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px;
+    height: 100px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20path%20%7B%20fill%3A%20none%3B%20stroke-linecap%3A%20round%3B%20stroke-width%3A%201.01px%3B%20stroke%3A%20rgba(0,0,0,0.039)%3B%20vector-effect%3A%20non-scaling-stroke%3B%20%7D%20%3C%2Fstyle%3E%20%3Cpath%20d%3D%22M-8%2C232L256%2C32%20M520%2C232L256%2C32%22%20%2F%3E%20%3Cpath%20d%3D%22M-8%2C488l264-200%20M520%2C488L256%2C288%22%20%2F%3E%3C%2Fsvg%3E"); 
+    background-size: contain
+}
+
+
+
+.innerdiv  .div01 {
+    width: 200px
+}
+
+.innerdiv  .div02 {
+    width: 400px
+}
+
+#mateimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+}
+
+.buttondiv {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end
+    
+    
+}
+
+.buttondiv .button {
+    background-color: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px
+}
+
+.arrowimg {
+    width: 100%;
+    height: 100%
+}
+
+.button:hover {
+    width: 70px;
+    height: 70px
+}
+
+#icons {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px
+}
+
+
+#icons div {
+    width: 50%;
+    
+}
+
+
+ul, li {
+    display: inline;
+    list-style: none
+    
+}
+
+li { 
+    margin-left: 20px;
+    list-style: none
+}

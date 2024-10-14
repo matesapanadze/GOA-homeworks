@@ -1,0 +1,48 @@
+.div1 {
+    background-color: green;
+    width: 30%;
+    height: 20%
+}
+
+.div1 div {
+    background-color: red;
+    width: 20%;
+    height: 100%;
+    text-decoration: underline dotted blue    
+}
+
+
+
+.div2 {
+    background-color: yellow;
+    width: 40%;
+    height: 50%
+}
+
+
+.div2 div {
+    background-color: blue;
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    text-decoration: overline dashed orange;
+    text-align: center;    
+}
+
+
+.div3 {
+    background-color: #2ab6cc;
+    width: 70%;
+    height: 60%
+}
+
+.div3 div {
+    background-color: orange;
+    width: 80%;
+    height: 60%;
+    margin-left: 20%;
+    text-align: right;
+    text-decoration: line-through wavy purple
+}
