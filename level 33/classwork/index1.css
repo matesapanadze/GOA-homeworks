@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(236, 232, 232);
+}
+
+.child1 {
+    background-color: grey;
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.child2 {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    padding: 10px;
+    position: absolute;
+    bottom: 60%;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent {
+    display: flex
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
