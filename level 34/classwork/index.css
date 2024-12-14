@@ -1,0 +1,10 @@
+div{
+    background-color: rgb(179, 243, 250);
+    width: 200px;
+    height: 200px;
+    transform: translate(300px, 100px)
+}
+
+div:hover{
+    transform: scale(2) rotate(45deg)
+}
