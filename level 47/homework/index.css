@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(116, 8, 155);
+    gap: 50px;
+    display: flex
+}
+
+div{
+    background-color: rgb(238, 189, 30);
+    height: 100px;
+    width: 100px
+}
+
+.body2{
+    flex-direction: column;
+}
+
+
+.body3{
+    flex-wrap: wrap
+}
+
+.body4{
+    flex-wrap: wrap-reverse;
+}
+
+.body5{
+    justify-content: flex-end
+}
