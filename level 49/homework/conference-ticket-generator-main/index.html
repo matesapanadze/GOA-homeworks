@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="background-img">
+    <div class="font-regular text-neutral flex flex-col align-center">
+      <header>
+        <img src="./assets/images/logo-full.svg" alt="Website logo icon" />
+      </header>
+      <main class="flex flex-col align-center">
+        <h1 class="font-bold text-xl w-xl text-center">Your Journey to Coding Conf 2025 Starts Here!</h1>
+        <h3 class="text-neutral-300 text-md">Secure your spot at next year's biggest coding conference.</h3>
+
+        <form class="flex flex-col">
+          <label class="font-Medium" for="f1">Upload Avatar</label>
+          <div>
+            <img src="./assets/images/icon-upload.svg"alt="Website upload icon"/>
+            <input type="file" name="file" id="f1" />
+            <p>Drag and drop or click to upload</p>
+          </div>
+          <div class="flex">
+            <img src="./assets/images/icon-info.svg" alt="Website info icon" />
+            <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+          </div>
+
+          <label for="t1">Full Name</label>
+          <input type="text" name="name" id="t1" />
+
+          <label for="e1">Email Address</label>
+          <input type="email" name="email" id="e1" placeholder="example@email.com"/>
+
+          <label for="t2">GitHub Username</label>
+          <input type="text" name="github" id="t2" placeholder="@yourusername"/>
+
+          <button>Generate My Ticket</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
