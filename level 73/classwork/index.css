@@ -1,0 +1,20 @@
+.default-font {
+    font-family: 'Noto Sans Georgian'
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.margin-center {
+    margin: 0 auto;
+    max-width: 1200px;
+}
