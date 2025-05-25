@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Boldonse';
+    font-size: 13px;
+    margin-left: 40%;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    gap: 60px;
+}
+
+input {
+    
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+input::placeholder {
+    opacity: .5;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(52, 110, 235);
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 90%;
+    margin-top: 35%;
+    position: fixed;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

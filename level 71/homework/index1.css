@@ -16,3 +16,10 @@ body {
     height: 200px;
 }
 
+@media screen and (max-width:569px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
