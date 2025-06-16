@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="demo">
+    <script>
+        let age = 16;
+        console.log(age);
+
+        const name = 'mate';
+        console.log(name);
+    </script>
+
+    <button onclick="document.getElementById('demo').style.background='red';">change color</button>
+
+    <input type="text" id="t1" name="txt">
+    <button onclick="let baro = document.getElementById('t1').value; console.log(baro);" id="b1">console.log</button>
+    <br><br><br>
+
+    <div id="divblock" style="background-color: blue; width: 200px; height: 200px;"></div>
+    <button onclick="let div = document.getElementById('divblock'); div.style.background='red'; div.style.width='300px'; div.style.height='300px'">click me</button>
+    
+</body>
+</html>
