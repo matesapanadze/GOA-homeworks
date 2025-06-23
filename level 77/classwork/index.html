@@ -7,9 +7,11 @@
 </head>
 <body>
     <script>
-        const Array = (1,2,3,4,48)
-        const slicedArray = Array.slice(1,3)
-        const splicedArray = Array.slice(2,3)
+        const arrayNum = (1,2,3,4,48);
+        const splicedArray = arrayNum.splice(0,3);
+        const slicedArray = arrayNum.slice(1,4);
+        const spliceInSlicedArray = slicedArray.splice(3, 2, 100, 101)
+        console.log(spliceInSlicedArray)
     </script>
 </body>
 </html>
