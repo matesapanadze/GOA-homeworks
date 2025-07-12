@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="car.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-[Inter]">
+    <header class="w-[100%] h-[104px] flex justify-between pt-[28px] pr-[72px] pb-[28px] pl-[72px] flex items-center ">
+        <div class="w-[180px] h-[48px] flex gap-[12px] flex items-center">
+            <img class="w-[48px] h-[48px]" src="car.png" alt="car">
+            <h1 class="w-[82px] h-[19px] text-[16px] font-[700]">Car Rental</h1>
+        </div>
+        <ul class="style-none flex gap-[20px] w-[564px] h-[30px]">
+            <li class="w-[102px] h-[30px] pt-[4px] pr-[12px] pb-[4px] pl-[12px]">Home</li>
+            <li class="w-[102px] h-[30px] pt-[4px] pr-[12px] pb-[4px] pl-[12px]">Vehicles</li>
+            <li class="w-[102px] h-[30px] pt-[4px] pr-[12px] pb-[4px] pl-[12px]">Details</li>
+            <li class="w-[102px] h-[30px] pt-[4px] pr-[12px] pb-[4px] pl-[12px]">About us</li>
+            <li class="w-[121px] h-[30px] pt-[4px] pr-[12px] pb-[4px] pl-[12px]">Contact Us</li>
+        </ul>
+        <div class="flex w-[180px] h-[40px] gap-[12px]">
+            <img src="telephone.png" alt="telephone">
+            <!-- <h2 class="w-[116px] h-[40px]">Need help?<br><b>+996 247-1680</b></h2> -->
+            <div class="w-[116px] h-[40px] flex flex-col gap-[12px]">
+                <p class="w-[88px] h-[11px] font-[Work Sans] font-[400] text-[16px]">Need help?</p>
+                <p class="w-[116px] h-[11px] font-[Work_Sans] font-[600] text-[16px]">+996 247-1680</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="w-[100%] h-[1896px] pt-[60px] pr-[72px] pb-[60px] pl-[72px] gap-[40px] flex justify center flex-col">
+            <h1 class="flex justify-center w-[100%] h-[59px] font-[Work_Sans] font-[700] text-[50px]">Select a vehicle
+                group</h1>
+            <div class="w-[1008px] h-[50px] gap-[24px]">
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px]">
+                    <p class="w-[89] h-[19px] font-[Work_Sans] font-[500] text-[16px] text-white">All vehicles</p>
+                </button>
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px] bg-[#F9F9F9]">
+                    <img class="w-[28px] h-[28px]" src="sedan.png" alt="sedan">
+                    <p class="w-[49px] h-[19px] font-[Work_Sans] font-[500] text-[16px]">Sedan</p>
+                </button>
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px] bg-[#F9F9F9]">
+                    <img class="w-[28px] h-[28px]" src="cabriolet.png" alt="cabriolet">
+                    <p class="w-[72px] h-[19px] font-[Work_Sans] font-[500] text-[16px]">Cabriolet</p>
+                </button>
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px] bg-[#F9F9F9]">
+                    <img class="w-[28px] h-[28px]" src="pickup.png" alt="cabriolet">
+                    <p class="w-[72px] h-[19px] font-[Work_Sans] font-[500] text-[16px]">pickup</p>                    
+                </button>
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px] bg-[#F9F9F9]">
+                    <img class="w-[28px] h-[28px]" src="suv.png" alt="suv">
+                    <p class="w-[72px] h-[19px] font-[Work_Sans] font-[500] text-[16px]">Suv</p>                    
+                </button>
+                <button class="w-[148px] h-[50px] rounded-[50px] pt-[4px] pr-[16px] pb-[4px] pl-[16px] gap-[8px] bg-[#F9F9F9]">
+                    <img class="w-[28px] h-[28px]" src="minivan.png" alt="minivan">
+                    <p class="w-[72px] h-[19px] font-[Work_Sans] font-[500] text-[16px]">Minivan</p>                    
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
