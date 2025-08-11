@@ -1,0 +1,17 @@
+.maindiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mentorh1 {
+    color: red;
+}
+
+.assistanth1 {
+    color: blue;
+}
+
+.studentsh1 {
+    color: green;
+}
