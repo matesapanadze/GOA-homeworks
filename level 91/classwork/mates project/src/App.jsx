@@ -2,6 +2,8 @@ import React from 'react'
 import Mentor from '../components/mentor'
 import Assistant from '../components/assistant'
 import Students from '../components/students'
+import Counter from '../components/counter'
+import textchange from '../components/textchange'
 
 export default function App() {
   return (
@@ -10,6 +12,8 @@ export default function App() {
       <Mentor />
       <Assistant />
       <Students />
+      <Counter />
+      <Textchange />
     </div>
   )
 }
