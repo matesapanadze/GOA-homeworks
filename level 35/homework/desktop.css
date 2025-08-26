@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: PT Sans
+}
+
+.items{
+    height: 100%;
+    width: 100%
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: 244px 321px 356px;
+    grid-template-rows: 64px 290px 59px 59px 70px
+}
+
+.grid-parent div{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.white{
+    color: white
+}
+
+.menu{
+    grid-column: span 2
+}
+
+.hero{
+    grid-column: span 3
+}
+
+.banner{
+    grid-row: 5;
+    grid-column: span 3
+}
+
+.image{
+    grid-column: 3
+}
+
+.main{
+    grid-row: span 2
+}
